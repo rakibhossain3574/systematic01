@@ -1,0 +1,58 @@
+/* Tablet Layout */
+@media(max-width:900px){
+    .social_area {max-width: 400px;}
+    .inner_menu{
+        background: none;
+        min-height: 0;
+        padding: 0;
+    }
+    .inner_menu::after {background: none;}
+    .mean-container .mean-bar {margin-bottom: 15px;}
+    .inner_header {padding: 20px 0px;}
+}
+
+@media(max-width:820px){
+    .child_service .service_img {
+        width: 20%;
+        float: left;
+        margin-top: 15px;
+    }
+    .about_area img {
+        max-width: 92%;
+    }
+}
+/* Mobile Layout */
+@media(max-width:480px){
+    .mini_menu {width: 100%;}
+    .mini_menu ul {text-align: center;margin-bottom: 10px;}
+    .search_area {
+        float: none;
+        width: 50%;
+        margin: auto;
+    }
+    .logo_area {
+        width: 240px;
+        float: none;
+        margin: auto;
+        text-align: center;
+    }
+    .inner_slider h2{
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+    .social_area ul {text-align: center;}
+    .social_area ul li {display: inline-block;margin: 0 5px;}
+    #work_area { padding:5px 0px;}
+    .child_work {width: 98%;}
+    #footer_area {padding: 10px 0;}
+    .child_footer {
+        width: 96%;
+    }
+    #copyright_area {
+        padding: 0;
+    }
+    .left_area, .right_area {
+        width: 100%;
+        text-align: center;
+    }
+}
